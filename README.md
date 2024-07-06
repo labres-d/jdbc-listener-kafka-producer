@@ -1,2 +1,2 @@
 # JDBC Listener for Kafka Producer
-This project tries to solve a problem in applications that use JDBC or JPA connections but desire to move to an event-driven architecture using Kafka. Without the necessity of creating Kafka Producers for different entities, this project uses the listeners from the JDBC to automatically create the event when an object is changed in the persistence layer.
+This project addresses a common challenge faced by applications transitioning from JDBC or JPA connections to an event-driven architecture with Kafka. By leveraging JDBC listeners, the project streamlines the process of generating events when an object undergoes changes in the persistence layer, eliminating the need to manually create Kafka Producers for individual entities.
